@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RepeatBackground : MonoBehaviour
+public class RepeatBackground1 : MonoBehaviour
 {
     private Vector3 startPos;
     private float repeatWidth;
@@ -16,9 +16,10 @@ public class RepeatBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < startPos.x - repeatWidth)
+       if(transform.position.x < startPos.x - 50)
         {
             transform.position = startPos;
         }
+
     }
 }
