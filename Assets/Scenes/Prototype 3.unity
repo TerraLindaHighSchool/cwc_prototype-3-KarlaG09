@@ -463,8 +463,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36b001128e31bf840ab64d999a12a467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 0, y: 0, z: 0}
-  repeatWidth: 0
 --- !u!114 &835818925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,8 +531,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1471517776, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471517776, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
       propertyPath: m_Constraints
       value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471517777, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
+      propertyPath: jumpForce
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471517777, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
+      propertyPath: gravityModifier
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
@@ -643,6 +653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 7895032323659954927, guid: 303e02ae631ae7842a0e7bc2ffbd520e,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7895032323660100876, guid: 303e02ae631ae7842a0e7bc2ffbd520e,
         type: 3}
       propertyPath: m_RootOrder
@@ -651,7 +666,7 @@ PrefabInstance:
     - target: {fileID: 7895032323660100876, guid: 303e02ae631ae7842a0e7bc2ffbd520e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.82
+      value: 32.1
       objectReference: {fileID: 0}
     - target: {fileID: 7895032323660100876, guid: 303e02ae631ae7842a0e7bc2ffbd520e,
         type: 3}

@@ -75,13 +75,13 @@ AnimatorController:
     m_DefaultInt: 2
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Body_Vertical_f
+  - m_Name: Body_Horizontal_f
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Body_Horizontal_f
+  - m_Name: Body_Vertical_f
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
